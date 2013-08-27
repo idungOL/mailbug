@@ -1,0 +1,590 @@
+ 	body {
+ 			margin: 8px auto auto auto;
+			background-color: #F9F7F2; 	
+			width: 960px;
+			height: auto;
+ 	}
+ 	
+ 	#bodyCont {
+			margin: 0 auto;
+			width: 960px;
+			height: auto; 	
+ 	}
+ 	
+ 	#headContainer {
+	 		width: 950px;
+	 		height: 100px;
+	 		margin: 0px;
+ 	}
+ 	
+ 	#contentContainer{
+	 		width:960px;
+	 		height: auto;
+	 		min-height: 500px;
+	 		margin:0px;
+ 	}
+ 	
+ 	#footContainer {
+	 		width:960px;
+	 		height:50px;
+	 		margin:0px;
+	 		text-align: center;
+ 	}
+ 	
+ 	#logoContainer {
+			float: left;
+			margin: 0px;
+ 	
+ 	}
+ 	#navContainer {
+ 			text-align: right;
+	 		float: right;
+	 		width: 240px;
+	 		right: 0px;
+	 		bottom: 0px;
+	 		padding:60px 0px 0 0;
+ 	}
+ 	
+ 	#loginContainer {
+	 		width: 450px;
+	 		height: 350px;
+	 		background-color: #F4EFEA;
+	 		margin: 277px auto;
+	 		border-radius: 5px;
+ 	}
+ 	
+ 	#registerContainer {
+	 		width: 450px;
+	 		height: 550px;
+	 		background-color: #F4EFEA;
+	 		margin: 63px auto 0 auto;
+	 		border-radius: 5px;
+ 	}
+ 	
+ 	#assignOp {
+	 		font-size: 20pt;
+	 		font-family: Myriad Pro;
+ 	}
+ 	
+ 	.assignV {
+	 		font-size: 20pt;
+	 		font-family: Myriad Pro;
+ 	}
+ 	
+ 	#welcome {
+ 			margin: auto;
+	 		font-family: Myriad Pro;
+	 		font-size: 16pt;
+	 		font-style: italic;
+	 		color: #89775D;
+	 		
+ 	}
+ 	
+ 	#welcomeContainer {
+			margin: auto;	 		
+ 	}
+ 	 
+ 	
+ 	#projectContainer {
+	 		width: 450px;
+	 		height: 150px;
+	 		background-color: #F4EFEA;
+	 		margin: 67px auto 0 auto;
+	 		border-radius: 5px;
+ 	}
+ 	
+ 	#projectListContainer {
+	 		width: 450px;
+	 		height: auto;
+	 		background-color: #F4EFEA;
+	 		margin: 60px auto 0 auto;
+	 		border-radius: 5px;
+ 	}
+ 	
+ 	 #projList {
+	 	 	margin: 60px auto;
+	 	 	height: auto;
+ 	}
+ 	
+ 	#combo {
+ 			width: 960px;
+ 			height: inherit;
+ 			
+	 	
+ 	}
+ 	
+ 	 #projSelectContainer {
+	 		width: 590px;
+	 		height: auto;
+	 		background-color: #F4EFEA;
+	 		float: left;
+	 		border-radius: 5px;
+	 		margin: 30px;
+	 		min-height: 500px;
+ 	}
+ 	
+ 	 #issueSelectContainer {
+	 		width: 900px;
+	 		height: auto;
+	 		min-height: 300px;
+	 		background-color: #F4EFEA;
+	 		margin: 35px auto;
+	 		border-radius: 5px;
+	 		
+ 	}
+ 	
+ 	#projectTitle{
+ 			font-family: Georgia;
+	 	 	font-size: 18pt;
+	 	 	color: #5B333C;
+	 	 	display: inline-block;
+	 	 	float: left;
+	 	 	margin: 10px 0 0 20px;
+  	}
+  	
+  	#issueHead {
+	  		margin: 20px 0 10px 35px;
+	  		font-family: Georgia;
+	  		font-size: 16pt;
+	  		color: #5B333C;
+  	}
+  	
+  	#issueComment {
+	  		width: 632px;
+	  		margin: 0;
+	  		font-size: 16px;
+	  		float:left;
+	  		margin-left: 35px;	  	
+  	}
+  	
+  	 #issueReply {
+	  		width: 550px;
+	  		margin: 0;
+	  		font-size: 16px;
+	  		float:left;
+	  		margin-left: 35px;	  	
+  	}
+  	
+  	#open {
+  			float: left;
+  			width: 20px;
+	  		height: 20px; 
+	  		background-color: #C5D3C7;
+  	}
+  	
+  	#verified {
+  			float: left;
+  			width: 20px;
+	  		height: 20px; 
+	  		background-color: #CECFD5;
+  	}
+  	.box {
+  			margin: 11px 0 11px 0;
+	  		width: 20px;
+	  		height: 20px;  	
+	  		float: left;
+	  	
+  	}
+  	
+  	#commentContainer {
+	  		width: auto;
+	  		height: 42px;
+  	}
+  	
+  	#issueComCont {
+	  		width:830px;
+	  		height: 42px;
+	  		float: left;
+	  		
+  	}
+  	
+  	#commentCont {
+	  		width:795px;
+	  		height: 42px;
+	  		float: left;
+	  		
+  	}
+  	
+  	#status {
+  			height: 20px;
+  			width: 140px;
+	  		font-family: Myriad Pro;
+	  		font-size: 14px;
+	  		font-style: italic;
+	  		color: #8A847B;
+	  		margin:16px 11px 5px 30px;
+  	}
+  	
+  	#commentStatus {
+  			float: right;
+	  		width: 140px;
+	  		height: 42px;
+  	}
+  	
+  	#comStatus {
+  			float: right;
+	  		width: 170px;
+	  		height: 42px;
+  	}
+  	
+  	
+  	p#appIssue {
+	  		font-family: Myriad Pro;
+	  		font-size: 16px;
+	  		color: black;
+	  		margin: 16px 35px;
+  	}
+  	
+  	p.appIssue {
+	  		font-family: Myriad Pro;
+	  		font-size: 16px;
+	  		color: #685955;
+	  		margin: 16px 35px;
+  	}
+  	
+  	#issueDetail {
+	  		width: 820px;
+	  		height: 190px;
+	  		background-color: white;
+	  		margin: 35px;
+	  		padding: 10px;
+  	}
+  	
+  	#commentDetail {
+	  		width: 750px;
+	  		height: auto;
+	  		background-color: white;
+	  		margin: 35px 45px 35px 105px;
+	  		padding: 10px;
+  	}
+  	#author {
+	  		font-family: Myriad Pro;
+	  		font-size: 16px;
+	  		font-style: italic;
+	  		color: #575756;
+	  		margin-left:35px;
+  	}
+  	
+  	#dateCreated {
+	  		font-family: Myriad Pro;
+	  		font-size: 14px;
+	  		font-style: italic;
+	  		color: #8A847B;
+	  		margin-left:35px;
+  	}
+  	
+  	#memberCont {
+	  		width: 275px;
+	  		height: auto;
+	  		min-height: 500px;
+	  		border-radius: 5px;
+	  		background-color: #F4EFEA;
+	  		float: right;
+	  		margin: 30px 30px 0 0;
+
+  	}
+  	
+  	#memTitle {
+			font-family: Georgia;
+	 	 	font-size: 18pt;
+	 	 	color: #5B333C;
+	 	 	margin: 20px 0 0 20px;
+  	}
+ 
+  	#lopSpan {
+  		 	font-family: Georgia;
+	 	 	font-size: 16pt;
+	 	 	color: #89775D; 	
+	  	 	float: right;
+	  	 	margin: 15px 20px 0 0;	 		
+ 	}
+ 	
+ 	a#lopLink :hover {
+	 		font-family: Georgia;
+	 	 	font-size: 16pt;
+	 	 	color: #9D858A;
+ 	}
+ 	
+ 	 a#lopLink:active {
+	 		font-family: Georgia;
+	 	 	font-size: 16pt;
+	 	 	color: #9D858A;
+ 	}
+ 	
+ 	 a#lopLink:link {
+	 		font-family: Georgia;
+	 	 	font-size: 16pt;
+	 	 	color: #89775D;
+ 	}
+ 	
+ 	 a#lopLink:visited {
+	 		font-family: Georgia;
+	 	 	font-size: 16pt;
+	 	 	color: #9D858A;
+ 	}
+ 	
+ 	#projSelectHead {
+	 		width: inherit;
+	 		height:27px;
+	}
+ 	
+ 	#memberContainer {
+	 		width: 450px;
+	 		height: auto;
+	 		background-color: #F4EFEA;
+	 		margin: 75px auto 0 auto;
+	 		border-radius: 5px;
+
+ 	}
+ 	
+ 	#mid {
+	 		width: 960;
+	 		height: auto;
+	 		min-height: 500px;
+	 		
+ 	}
+ 	
+ 	#addIssueCont {
+	 		width: 450px;
+	 		height: 400px;
+	 		background-color: #F4EFEA;
+	 		margin: 30px auto;
+	 		text-align: center;
+	 		border-radius: 5px;
+	 		padding-top: 20px;
+ 	}
+ 	
+ 	#addMemberCont {
+	 		width: 450px;
+	 		height: 250px;
+	 		background-color: #F4EFEA;
+	 		margin: 184px auto 0 auto;
+	 		border-radius: 5px;
+ 	}
+
+ 	
+ 	#txtArea {
+ 			margin:0;
+ 			padding: 0;
+ 	}
+ 	
+ 	.titleContainer {
+	 		width: 450px;
+	 		height: auto;
+	 		margin: 0;
+	 		
+ 	}
+ 	
+ 	 #membertitleContainer {
+	 		width: 450px;
+	 		height: auto;
+ 		
+ 	}
+ 	
+ 	#membertitleContainer p:first-child {
+	 	 	font-family: Georgia;
+	 	 	font-size: 18pt;
+	 	 	color: #9D858A;
+	 	 	text-align: center;
+	 	 	margin: 0;
+	 	 	padding-top: 23px;
+
+	}
+	
+ 	
+
+ 	 	.titleContainer p:first-child {
+	 	 	font-family: Georgia;
+	 	 	font-size: 18pt;
+	 	 	color: #9D858A;
+	 	 	text-align: center;
+	 	 	margin: 0;
+	 	 	padding-top: 23px;
+
+	}
+	
+	.addTitleContainer {
+	 		width:450px;
+	 		height: auto;
+	 		text-align: center;
+	 		font-family: Georgia;
+	 	 	font-size: 18pt;
+	 	 		 	 		
+ 	}
+ 	
+ 	.addTitleContainer p {
+ 			margin: 10px auto;
+	 		color: #5B333C;	
+ 	}
+ 	
+	
+	#submitProj {
+			width: 142px;
+			height: 42px;
+			margin: 30px auto;
+	}
+	
+	textarea {
+			font-family: Myriad Pro;
+			font-size: 16pt;
+			color: #685955;
+	}
+
+	
+	.titleContainer p {
+	 	 	font-family: Georgia;
+	 	 	font-size: 18pt;
+	 	 	color: #9D858A;
+	 	 	text-align: center;
+
+
+	}
+	
+	 	#listTitle {
+  			padding-top: 60px; 			
+	 		color: #685955;
+ 	}
+ 	
+	
+	 	
+		 
+	#inputContainer {
+			margin: 0;
+			padding: 0;
+			width: 450px;
+			min-height: 300px;
+	}
+	
+		#inputContainer p {
+			margin-top: 15px;
+			padding: 0;
+	}
+	
+	
+	ul {
+			list-style-type: none;	
+			padding: 0;
+			margin: 0;
+		
+	}
+	
+	#issueOl li {
+			
+	}
+	
+	#issueTitle {
+			font-family: Georgia;
+			font-size: 16pt;
+			color: #5B333C;
+			margin:35px 0 0 35px;
+	}
+	
+	li {
+			font-family: Myriad Pro;
+			font-size: 16pt;
+			color: #685955;
+			margin:20px;
+	}
+	
+	.projA {
+			font-family: Myriad Pro;
+			font-size: 16pt;
+			color: #685955;
+			text-decoration: none;
+	}
+	.projA:link {
+ 			color:#685955;
+ 	}    /* unvisited link */
+ 	
+ 	.projA:visited {
+ 			color:#685955;
+ 	} /* visited link */
+ 	
+ 	.projA:hover {
+ 			color:#9D858A;
+ 	}   /* mouse over link */
+ 	
+ 	.projA:active {
+ 			color:#9D858A;
+ 	}  /* selected link */
+	
+	input {
+			text-indent: 15px;
+			width:250px;
+			height:38px;
+			font-size: 16pt; 
+			font-family: Myriad Pro;
+			color:#B8AD9E;
+			padding: 0;
+	} 		
+	
+	 .imgClass 	{ 
+ 			background-color: #F4EFEA;    		
+			background-position:  0px 0px;
+    		background-repeat: no-repeat;
+    		width: 142px;
+    		height: 42px;
+    		border: 0px;
+ 	}
+ 	
+ 	.imgClass:hover { 
+      		background-position:  0px -2px;
+	}
+
+	.imgClass:active {
+      		background-position:  0px -3px;
+	  }
+ 	
+ 	#submitBut {
+	 		background-image: url('img/button_submit.png');
+	 	
+ 	}
+ 	
+ 	#addBut {
+	 		background-image: url('img/button_add_more.png');
+ 	}
+ 	
+ 	#submitContainer {
+	 		text-align: center;
+ 	}
+ 	
+ 	#footer {
+	 		font-family: Myriad Pro;
+	 		font-size: 14pt;
+	 		color: #6B645B;
+	 		clear: both;
+	 		
+ 	}
+ 	
+ 	.navlinks a {
+ 			font-family: Georgia;
+ 			font-size: 15pt;
+ 			text-decoration: none;
+ 			width: 80px;
+ 			margin-left:10px;
+	 	
+ 	}
+ 	#active a {
+	 		color: #9D858A;
+ 	}
+ 	
+ 	.navlinks a:link {
+ 			color:#5B333C;
+ 	}    /* unvisited link */
+ 	
+ 	.navlinks a:visited {
+ 			color:#5B333C;
+ 	} /* visited link */
+ 	
+ 	.navlinks a:hover {
+ 			color:#9D858A;
+ 	}   /* mouse over link */
+ 	
+ 	.navlinks a:active {
+ 			color:#9D858A;
+ 	}  /* selected link */
+ 	
+ 	hr {
+ 		size: .25px;
+	 	color: #89775D;
+ 	}
